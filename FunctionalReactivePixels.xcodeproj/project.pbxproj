@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FBDADE55904F067EA462FBF /* libPods-FunctionalReactivePixelsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 604EE56EBAF809317C17C63B /* libPods-FunctionalReactivePixelsTests.a */; };
+		F039FB0C1D96CF0C00DDB41C /* FunctionalReactivePixelsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F039FB0B1D96CF0C00DDB41C /* FunctionalReactivePixelsTests.m */; };
+		F0418B2C1D96CC5F00A24F86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0418B2B1D96CC5F00A24F86 /* main.m */; };
+		F0418B2F1D96CC5F00A24F86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0418B2E1D96CC5F00A24F86 /* AppDelegate.m */; };
+		F0418B321D96CC5F00A24F86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0418B311D96CC5F00A24F86 /* ViewController.m */; };
+		F0418B351D96CC5F00A24F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0418B331D96CC5F00A24F86 /* Main.storyboard */; };
+		F0418B371D96CC5F00A24F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0418B361D96CC5F00A24F86 /* Assets.xcassets */; };
+		F0418B3A1D96CC5F00A24F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0418B381D96CC5F00A24F86 /* LaunchScreen.storyboard */; };
+		F08E919AC456BA1450255128 /* libPods-FunctionalReactivePixels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9496CB204E89D1924FA859 /* libPods-FunctionalReactivePixels.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F039FB0E1D96CF0C00DDB41C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0418B1F1D96CC5F00A24F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0418B261D96CC5F00A24F86;
+			remoteInfo = FunctionalReactivePixels;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C00D2DCB5A60A50BDCA7EBD /* Pods-FunctionalReactivePixels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalReactivePixels.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionalReactivePixels/Pods-FunctionalReactivePixels.debug.xcconfig"; sourceTree = "<group>"; };
+		4C5FB51371E6F92BF7189FD1 /* Pods-FunctionalReactivePixelsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalReactivePixelsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionalReactivePixelsTests/Pods-FunctionalReactivePixelsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		604EE56EBAF809317C17C63B /* libPods-FunctionalReactivePixelsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FunctionalReactivePixelsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832D6F0C55CD013BA4CE05C3 /* Pods-FunctionalReactivePixelsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalReactivePixelsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionalReactivePixelsTests/Pods-FunctionalReactivePixelsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8782D70F026DAD97B4EB1C5C /* Pods-FunctionalReactivePixels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalReactivePixels.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionalReactivePixels/Pods-FunctionalReactivePixels.release.xcconfig"; sourceTree = "<group>"; };
+		F039FB091D96CF0C00DDB41C /* FunctionalReactivePixelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionalReactivePixelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F039FB0B1D96CF0C00DDB41C /* FunctionalReactivePixelsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunctionalReactivePixelsTests.m; sourceTree = "<group>"; };
+		F039FB0D1D96CF0C00DDB41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0418B271D96CC5F00A24F86 /* FunctionalReactivePixels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionalReactivePixels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0418B2B1D96CC5F00A24F86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0418B2D1D96CC5F00A24F86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0418B2E1D96CC5F00A24F86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0418B301D96CC5F00A24F86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0418B311D96CC5F00A24F86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0418B341D96CC5F00A24F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0418B361D96CC5F00A24F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0418B391D96CC5F00A24F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0418B3B1D96CC5F00A24F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9496CB204E89D1924FA859 /* libPods-FunctionalReactivePixels.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FunctionalReactivePixels.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F039FB061D96CF0C00DDB41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBDADE55904F067EA462FBF /* libPods-FunctionalReactivePixelsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0418B241D96CC5F00A24F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08E919AC456BA1450255128 /* libPods-FunctionalReactivePixels.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB754B7680590FFFA8C2565 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C00D2DCB5A60A50BDCA7EBD /* Pods-FunctionalReactivePixels.debug.xcconfig */,
+				8782D70F026DAD97B4EB1C5C /* Pods-FunctionalReactivePixels.release.xcconfig */,
+				4C5FB51371E6F92BF7189FD1 /* Pods-FunctionalReactivePixelsTests.debug.xcconfig */,
+				832D6F0C55CD013BA4CE05C3 /* Pods-FunctionalReactivePixelsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F2E0245C2A3431DC98D0A59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB9496CB204E89D1924FA859 /* libPods-FunctionalReactivePixels.a */,
+				604EE56EBAF809317C17C63B /* libPods-FunctionalReactivePixelsTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F039FB0A1D96CF0C00DDB41C /* FunctionalReactivePixelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F039FB0B1D96CF0C00DDB41C /* FunctionalReactivePixelsTests.m */,
+				F039FB0D1D96CF0C00DDB41C /* Info.plist */,
+			);
+			path = FunctionalReactivePixelsTests;
+			sourceTree = "<group>";
+		};
+		F0418B1E1D96CC5F00A24F86 = {
+			isa = PBXGroup;
+			children = (
+				F0418B291D96CC5F00A24F86 /* FunctionalReactivePixels */,
+				F039FB0A1D96CF0C00DDB41C /* FunctionalReactivePixelsTests */,
+				F0418B281D96CC5F00A24F86 /* Products */,
+				0AB754B7680590FFFA8C2565 /* Pods */,
+				5F2E0245C2A3431DC98D0A59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F0418B281D96CC5F00A24F86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0418B271D96CC5F00A24F86 /* FunctionalReactivePixels.app */,
+				F039FB091D96CF0C00DDB41C /* FunctionalReactivePixelsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0418B291D96CC5F00A24F86 /* FunctionalReactivePixels */ = {
+			isa = PBXGroup;
+			children = (
+				F0418B2D1D96CC5F00A24F86 /* AppDelegate.h */,
+				F0418B2E1D96CC5F00A24F86 /* AppDelegate.m */,
+				F0418B301D96CC5F00A24F86 /* ViewController.h */,
+				F0418B311D96CC5F00A24F86 /* ViewController.m */,
+				F0418B331D96CC5F00A24F86 /* Main.storyboard */,
+				F0418B361D96CC5F00A24F86 /* Assets.xcassets */,
+				F0418B381D96CC5F00A24F86 /* LaunchScreen.storyboard */,
+				F0418B3B1D96CC5F00A24F86 /* Info.plist */,
+				F0418B2A1D96CC5F00A24F86 /* Supporting Files */,
+			);
+			path = FunctionalReactivePixels;
+			sourceTree = "<group>";
+		};
+		F0418B2A1D96CC5F00A24F86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0418B2B1D96CC5F00A24F86 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F039FB081D96CF0C00DDB41C /* FunctionalReactivePixelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F039FB101D96CF0C00DDB41C /* Build configuration list for PBXNativeTarget "FunctionalReactivePixelsTests" */;
+			buildPhases = (
+				99D57E5CCE4132D885F929BC /* [CP] Check Pods Manifest.lock */,
+				F039FB051D96CF0C00DDB41C /* Sources */,
+				F039FB061D96CF0C00DDB41C /* Frameworks */,
+				F039FB071D96CF0C00DDB41C /* Resources */,
+				54762DE04D9C08E61299F190 /* [CP] Embed Pods Frameworks */,
+				144D77B331540872ED8B02B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F039FB0F1D96CF0C00DDB41C /* PBXTargetDependency */,
+			);
+			name = FunctionalReactivePixelsTests;
+			productName = FunctionalReactivePixelsTests;
+			productReference = F039FB091D96CF0C00DDB41C /* FunctionalReactivePixelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0418B261D96CC5F00A24F86 /* FunctionalReactivePixels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0418B3E1D96CC5F00A24F86 /* Build configuration list for PBXNativeTarget "FunctionalReactivePixels" */;
+			buildPhases = (
+				1AC81383824F0846B9797BBE /* [CP] Check Pods Manifest.lock */,
+				F0418B231D96CC5F00A24F86 /* Sources */,
+				F0418B241D96CC5F00A24F86 /* Frameworks */,
+				F0418B251D96CC5F00A24F86 /* Resources */,
+				C6F93F3658302C9DA0996C29 /* [CP] Embed Pods Frameworks */,
+				545DBA69D1E2B67ACBD8F097 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunctionalReactivePixels;
+			productName = FunctionalReactivePixels;
+			productReference = F0418B271D96CC5F00A24F86 /* FunctionalReactivePixels.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0418B1F1D96CC5F00A24F86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Yolk;
+				TargetAttributes = {
+					F039FB081D96CF0C00DDB41C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0418B261D96CC5F00A24F86;
+					};
+					F0418B261D96CC5F00A24F86 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F0418B221D96CC5F00A24F86 /* Build configuration list for PBXProject "FunctionalReactivePixels" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0418B1E1D96CC5F00A24F86;
+			productRefGroup = F0418B281D96CC5F00A24F86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0418B261D96CC5F00A24F86 /* FunctionalReactivePixels */,
+				F039FB081D96CF0C00DDB41C /* FunctionalReactivePixelsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F039FB071D96CF0C00DDB41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0418B251D96CC5F00A24F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0418B3A1D96CC5F00A24F86 /* LaunchScreen.storyboard in Resources */,
+				F0418B371D96CC5F00A24F86 /* Assets.xcassets in Resources */,
+				F0418B351D96CC5F00A24F86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		144D77B331540872ED8B02B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunctionalReactivePixelsTests/Pods-FunctionalReactivePixelsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AC81383824F0846B9797BBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		545DBA69D1E2B67ACBD8F097 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunctionalReactivePixels/Pods-FunctionalReactivePixels-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54762DE04D9C08E61299F190 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunctionalReactivePixelsTests/Pods-FunctionalReactivePixelsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99D57E5CCE4132D885F929BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6F93F3658302C9DA0996C29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunctionalReactivePixels/Pods-FunctionalReactivePixels-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F039FB051D96CF0C00DDB41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F039FB0C1D96CF0C00DDB41C /* FunctionalReactivePixelsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0418B231D96CC5F00A24F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0418B321D96CC5F00A24F86 /* ViewController.m in Sources */,
+				F0418B2F1D96CC5F00A24F86 /* AppDelegate.m in Sources */,
+				F0418B2C1D96CC5F00A24F86 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F039FB0F1D96CF0C00DDB41C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0418B261D96CC5F00A24F86 /* FunctionalReactivePixels */;
+			targetProxy = F039FB0E1D96CF0C00DDB41C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0418B331D96CC5F00A24F86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0418B341D96CC5F00A24F86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0418B381D96CC5F00A24F86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0418B391D96CC5F00A24F86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F039FB111D96CF0C00DDB41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5FB51371E6F92BF7189FD1 /* Pods-FunctionalReactivePixelsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FunctionalReactivePixelsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yolk.FunctionalReactivePixelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunctionalReactivePixels.app/FunctionalReactivePixels";
+			};
+			name = Debug;
+		};
+		F039FB121D96CF0C00DDB41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832D6F0C55CD013BA4CE05C3 /* Pods-FunctionalReactivePixelsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FunctionalReactivePixelsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yolk.FunctionalReactivePixelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunctionalReactivePixels.app/FunctionalReactivePixels";
+			};
+			name = Release;
+		};
+		F0418B3C1D96CC5F00A24F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0418B3D1D96CC5F00A24F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0418B3F1D96CC5F00A24F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C00D2DCB5A60A50BDCA7EBD /* Pods-FunctionalReactivePixels.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunctionalReactivePixels/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yolk.FunctionalReactivePixels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0418B401D96CC5F00A24F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8782D70F026DAD97B4EB1C5C /* Pods-FunctionalReactivePixels.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunctionalReactivePixels/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yolk.FunctionalReactivePixels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F039FB101D96CF0C00DDB41C /* Build configuration list for PBXNativeTarget "FunctionalReactivePixelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F039FB111D96CF0C00DDB41C /* Debug */,
+				F039FB121D96CF0C00DDB41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0418B221D96CC5F00A24F86 /* Build configuration list for PBXProject "FunctionalReactivePixels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0418B3C1D96CC5F00A24F86 /* Debug */,
+				F0418B3D1D96CC5F00A24F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0418B3E1D96CC5F00A24F86 /* Build configuration list for PBXNativeTarget "FunctionalReactivePixels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0418B3F1D96CC5F00A24F86 /* Debug */,
+				F0418B401D96CC5F00A24F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0418B1F1D96CC5F00A24F86 /* Project object */;
+}
