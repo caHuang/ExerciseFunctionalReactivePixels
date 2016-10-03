@@ -11,11 +11,11 @@
 		F039FB0C1D96CF0C00DDB41C /* FunctionalReactivePixelsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F039FB0B1D96CF0C00DDB41C /* FunctionalReactivePixelsTests.m */; };
 		F0418B2C1D96CC5F00A24F86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0418B2B1D96CC5F00A24F86 /* main.m */; };
 		F0418B2F1D96CC5F00A24F86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0418B2E1D96CC5F00A24F86 /* AppDelegate.m */; };
-		F0418B321D96CC5F00A24F86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0418B311D96CC5F00A24F86 /* ViewController.m */; };
 		F0418B351D96CC5F00A24F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0418B331D96CC5F00A24F86 /* Main.storyboard */; };
 		F0418B371D96CC5F00A24F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0418B361D96CC5F00A24F86 /* Assets.xcassets */; };
 		F0418B3A1D96CC5F00A24F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0418B381D96CC5F00A24F86 /* LaunchScreen.storyboard */; };
 		F08E919AC456BA1450255128 /* libPods-FunctionalReactivePixels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9496CB204E89D1924FA859 /* libPods-FunctionalReactivePixels.a */; };
+		F092928B1DA2ABAD00511C3A /* FRPGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F092928A1DA2ABAD00511C3A /* FRPGalleryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +41,12 @@
 		F0418B2B1D96CC5F00A24F86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0418B2D1D96CC5F00A24F86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0418B2E1D96CC5F00A24F86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F0418B301D96CC5F00A24F86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F0418B311D96CC5F00A24F86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F0418B341D96CC5F00A24F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0418B361D96CC5F00A24F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0418B391D96CC5F00A24F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0418B3B1D96CC5F00A24F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09292891DA2ABAD00511C3A /* FRPGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPGalleryViewController.h; sourceTree = "<group>"; };
+		F092928A1DA2ABAD00511C3A /* FRPGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPGalleryViewController.m; sourceTree = "<group>"; };
 		FB9496CB204E89D1924FA859 /* libPods-FunctionalReactivePixels.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FunctionalReactivePixels.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -124,8 +124,8 @@
 			children = (
 				F0418B2D1D96CC5F00A24F86 /* AppDelegate.h */,
 				F0418B2E1D96CC5F00A24F86 /* AppDelegate.m */,
-				F0418B301D96CC5F00A24F86 /* ViewController.h */,
-				F0418B311D96CC5F00A24F86 /* ViewController.m */,
+				F09292891DA2ABAD00511C3A /* FRPGalleryViewController.h */,
+				F092928A1DA2ABAD00511C3A /* FRPGalleryViewController.m */,
 				F0418B331D96CC5F00A24F86 /* Main.storyboard */,
 				F0418B361D96CC5F00A24F86 /* Assets.xcassets */,
 				F0418B381D96CC5F00A24F86 /* LaunchScreen.storyboard */,
@@ -352,7 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0418B321D96CC5F00A24F86 /* ViewController.m in Sources */,
+				F092928B1DA2ABAD00511C3A /* FRPGalleryViewController.m in Sources */,
 				F0418B2F1D96CC5F00A24F86 /* AppDelegate.m in Sources */,
 				F0418B2C1D96CC5F00A24F86 /* main.m in Sources */,
 			);
